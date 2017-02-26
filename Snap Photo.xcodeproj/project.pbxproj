@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ADC8281E6320AF00C79866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC8271E6320AF00C79866 /* AppDelegate.swift */; };
+		04ADC82A1E6320AF00C79866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC8291E6320AF00C79866 /* ViewController.swift */; };
+		04ADC82D1E6320AF00C79866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC82B1E6320AF00C79866 /* Main.storyboard */; };
+		04ADC82F1E6320AF00C79866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC82E1E6320AF00C79866 /* Assets.xcassets */; };
+		04ADC8321E6320AF00C79866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC8301E6320AF00C79866 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04ADC8241E6320AF00C79866 /* Snap Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap Photo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ADC8271E6320AF00C79866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04ADC8291E6320AF00C79866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ADC82C1E6320AF00C79866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ADC82E1E6320AF00C79866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ADC8311E6320AF00C79866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ADC8331E6320AF00C79866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ADC8211E6320AF00C79866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ADC81B1E6320AF00C79866 = {
+			isa = PBXGroup;
+			children = (
+				04ADC8261E6320AF00C79866 /* Snap Photo */,
+				04ADC8251E6320AF00C79866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ADC8251E6320AF00C79866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ADC8241E6320AF00C79866 /* Snap Photo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ADC8261E6320AF00C79866 /* Snap Photo */ = {
+			isa = PBXGroup;
+			children = (
+				04ADC8271E6320AF00C79866 /* AppDelegate.swift */,
+				04ADC8291E6320AF00C79866 /* ViewController.swift */,
+				04ADC82B1E6320AF00C79866 /* Main.storyboard */,
+				04ADC82E1E6320AF00C79866 /* Assets.xcassets */,
+				04ADC8301E6320AF00C79866 /* LaunchScreen.storyboard */,
+				04ADC8331E6320AF00C79866 /* Info.plist */,
+			);
+			path = "Snap Photo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ADC8231E6320AF00C79866 /* Snap Photo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ADC8361E6320AF00C79866 /* Build configuration list for PBXNativeTarget "Snap Photo" */;
+			buildPhases = (
+				04ADC8201E6320AF00C79866 /* Sources */,
+				04ADC8211E6320AF00C79866 /* Frameworks */,
+				04ADC8221E6320AF00C79866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snap Photo";
+			productName = "Snap Photo";
+			productReference = 04ADC8241E6320AF00C79866 /* Snap Photo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ADC81C1E6320AF00C79866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yassine EN";
+				TargetAttributes = {
+					04ADC8231E6320AF00C79866 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NYR5C8VYSX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04ADC81F1E6320AF00C79866 /* Build configuration list for PBXProject "Snap Photo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ADC81B1E6320AF00C79866;
+			productRefGroup = 04ADC8251E6320AF00C79866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ADC8231E6320AF00C79866 /* Snap Photo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ADC8221E6320AF00C79866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADC8321E6320AF00C79866 /* LaunchScreen.storyboard in Resources */,
+				04ADC82F1E6320AF00C79866 /* Assets.xcassets in Resources */,
+				04ADC82D1E6320AF00C79866 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ADC8201E6320AF00C79866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ADC82A1E6320AF00C79866 /* ViewController.swift in Sources */,
+				04ADC8281E6320AF00C79866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04ADC82B1E6320AF00C79866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ADC82C1E6320AF00C79866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ADC8301E6320AF00C79866 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ADC8311E6320AF00C79866 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ADC8341E6320AF00C79866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ADC8351E6320AF00C79866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ADC8371E6320AF00C79866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYR5C8VYSX;
+				INFOPLIST_FILE = "Snap Photo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vr.Snap-Photo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04ADC8381E6320AF00C79866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NYR5C8VYSX;
+				INFOPLIST_FILE = "Snap Photo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vr.Snap-Photo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ADC81F1E6320AF00C79866 /* Build configuration list for PBXProject "Snap Photo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADC8341E6320AF00C79866 /* Debug */,
+				04ADC8351E6320AF00C79866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ADC8361E6320AF00C79866 /* Build configuration list for PBXNativeTarget "Snap Photo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ADC8371E6320AF00C79866 /* Debug */,
+				04ADC8381E6320AF00C79866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ADC81C1E6320AF00C79866 /* Project object */;
+}
