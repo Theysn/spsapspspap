@@ -12,6 +12,12 @@
 		04ADC82D1E6320AF00C79866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC82B1E6320AF00C79866 /* Main.storyboard */; };
 		04ADC82F1E6320AF00C79866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC82E1E6320AF00C79866 /* Assets.xcassets */; };
 		04ADC8321E6320AF00C79866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC8301E6320AF00C79866 /* LaunchScreen.storyboard */; };
+		04ADC83A1E6371D700C79866 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04ADC8391E6371D700C79866 /* GoogleService-Info.plist */; };
+		04ADC83C1E637A8200C79866 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC83B1E637A8200C79866 /* ImageCollectionViewCell.swift */; };
+		04ADC8421E63B08800C79866 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC8411E63B08800C79866 /* Extensions.swift */; };
+		04ADC8481E63C06E00C79866 /* PresentImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ADC8471E63C06E00C79866 /* PresentImageViewController.swift */; };
+		04B65E481E68EE0C008BC21C /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B65E471E68EE0C008BC21C /* Walkthrough.storyboard */; };
+		10EE03AF745EC70BC5DB4EFB /* Pods_Snap_Photo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE4708792044D0EF39E7B48 /* Pods_Snap_Photo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		04ADC82E1E6320AF00C79866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ADC8311E6320AF00C79866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04ADC8331E6320AF00C79866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ADC8391E6371D700C79866 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04ADC83B1E637A8200C79866 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		04ADC8411E63B08800C79866 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04ADC8471E63C06E00C79866 /* PresentImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentImageViewController.swift; sourceTree = "<group>"; };
+		04B65E471E68EE0C008BC21C /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Walkthrough.storyboard; sourceTree = "<group>"; };
+		4C17CB70A35C25BA8BDAF9EC /* Pods-Snap Photo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap Photo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap Photo/Pods-Snap Photo.release.xcconfig"; sourceTree = "<group>"; };
+		67B15AFED28B20CF26C5E8D2 /* Pods-Snap Photo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap Photo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap Photo/Pods-Snap Photo.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE4708792044D0EF39E7B48 /* Pods_Snap_Photo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_Photo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10EE03AF745EC70BC5DB4EFB /* Pods_Snap_Photo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				04ADC8261E6320AF00C79866 /* Snap Photo */,
 				04ADC8251E6320AF00C79866 /* Products */,
+				FA32E0628C5B674D2A848DBB /* Pods */,
+				390E562AD7AC283FD413D9D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,52 @@
 		04ADC8261E6320AF00C79866 /* Snap Photo */ = {
 			isa = PBXGroup;
 			children = (
+				04ADC8461E63BF3E00C79866 /* Extensions */,
+				04ADC8451E63BF2400C79866 /* CellView */,
 				04ADC8271E6320AF00C79866 /* AppDelegate.swift */,
 				04ADC8291E6320AF00C79866 /* ViewController.swift */,
 				04ADC82B1E6320AF00C79866 /* Main.storyboard */,
+				04ADC8471E63C06E00C79866 /* PresentImageViewController.swift */,
+				04ADC8391E6371D700C79866 /* GoogleService-Info.plist */,
 				04ADC82E1E6320AF00C79866 /* Assets.xcassets */,
+				04B65E471E68EE0C008BC21C /* Walkthrough.storyboard */,
 				04ADC8301E6320AF00C79866 /* LaunchScreen.storyboard */,
 				04ADC8331E6320AF00C79866 /* Info.plist */,
 			);
 			path = "Snap Photo";
+			sourceTree = "<group>";
+		};
+		04ADC8451E63BF2400C79866 /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				04ADC83B1E637A8200C79866 /* ImageCollectionViewCell.swift */,
+			);
+			name = CellView;
+			sourceTree = "<group>";
+		};
+		04ADC8461E63BF3E00C79866 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04ADC8411E63B08800C79866 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		390E562AD7AC283FD413D9D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4708792044D0EF39E7B48 /* Pods_Snap_Photo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA32E0628C5B674D2A848DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B15AFED28B20CF26C5E8D2 /* Pods-Snap Photo.debug.xcconfig */,
+				4C17CB70A35C25BA8BDAF9EC /* Pods-Snap Photo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04ADC8361E6320AF00C79866 /* Build configuration list for PBXNativeTarget "Snap Photo" */;
 			buildPhases = (
+				945C4D6DD1F462CFEF103A89 /* [CP] Check Pods Manifest.lock */,
 				04ADC8201E6320AF00C79866 /* Sources */,
 				04ADC8211E6320AF00C79866 /* Frameworks */,
 				04ADC8221E6320AF00C79866 /* Resources */,
+				5E583D56E9E1EFEC99BE2987 /* [CP] Embed Pods Frameworks */,
+				45BD3AB3DC8A04D41C97263A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,7 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ADC83A1E6371D700C79866 /* GoogleService-Info.plist in Resources */,
 				04ADC8321E6320AF00C79866 /* LaunchScreen.storyboard in Resources */,
+				04B65E481E68EE0C008BC21C /* Walkthrough.storyboard in Resources */,
 				04ADC82F1E6320AF00C79866 /* Assets.xcassets in Resources */,
 				04ADC82D1E6320AF00C79866 /* Main.storyboard in Resources */,
 			);
@@ -132,13 +192,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45BD3AB3DC8A04D41C97263A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap Photo/Pods-Snap Photo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E583D56E9E1EFEC99BE2987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap Photo/Pods-Snap Photo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		945C4D6DD1F462CFEF103A89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04ADC8201E6320AF00C79866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ADC83C1E637A8200C79866 /* ImageCollectionViewCell.swift in Sources */,
 				04ADC82A1E6320AF00C79866 /* ViewController.swift in Sources */,
+				04ADC8481E63C06E00C79866 /* PresentImageViewController.swift in Sources */,
 				04ADC8281E6320AF00C79866 /* AppDelegate.swift in Sources */,
+				04ADC8421E63B08800C79866 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +370,14 @@
 		};
 		04ADC8371E6320AF00C79866 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B15AFED28B20CF26C5E8D2 /* Pods-Snap Photo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NYR5C8VYSX;
 				INFOPLIST_FILE = "Snap Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vr.Snap-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stickers.for.snapchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,12 +385,14 @@
 		};
 		04ADC8381E6320AF00C79866 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C17CB70A35C25BA8BDAF9EC /* Pods-Snap Photo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NYR5C8VYSX;
 				INFOPLIST_FILE = "Snap Photo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vr.Snap-Photo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stickers.for.snapchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -302,6 +417,7 @@
 				04ADC8381E6320AF00C79866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
